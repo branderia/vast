@@ -1,0 +1,24 @@
+<VAST version="2.0">
+<Ad id="12345">
+<InLine>
+<AdSystem>Ads</AdSystem>
+<AdTitle>
+<test ]]>
+</AdTitle>
+<Impression>
+<![CDATA[ https://b.com/1x1.gif? ]]>
+</Impression>
+<Creatives>
+<Creative id="12345">
+<NonLinearAds>
+<NonLinear id="12345" width="1280" height="720">
+<StaticResource creativeType="image/png">
+<![CDATA[ https://creative.com/test2.gif ]]>
+</StaticResource>
+</NonLinear>
+</NonLinearAds>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
