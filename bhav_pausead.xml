@@ -1,0 +1,48 @@
+<VAST
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="channel4-pause">
+        <InLine>
+            <AdSystem>Bhav_Adserver</AdSystem>
+            <AdTitle>
+                <![CDATA[ Pause Ad ]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[ This is a image pause ad test ]]>
+            </Description>
+            <Error>
+                <![CDATA[ https://bhav.net/error ]]>
+            </Error>
+            <Impression id="impression-id">
+                <![CDATA[ https://bhav.net/impression ]]>
+            </Impression>
+            <Creatives>
+                <Creative id="image-pauseads">
+                    <Linear>
+                        <Duration>00:00:05</Duration>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">
+                                <![CDATA[ https://bhav.net/creativeview ]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id="bhav_click.0">
+                                <![CDATA[ https://bhav.net/click ]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile id="c4_bigscreen" delivery="progressive" type="image/jpg" width="1280" height="720">
+                                <![CDATA[ https://streamr-assets.s3.us-east-2.amazonaws.com/Channel+4+Pause+Ads/BIG+SCREEN+1280x720b.jpg ]]>
+                            </MediaFile>
+                            <MediaFile id="c4_desktop" delivery="progressive" type="image/jpg" width="1024" height="576">
+                                <![CDATA[ https://streamr-assets.s3.us-east-2.amazonaws.com/Channel+4+Pause+Ads/com+1024x576b.jpg ]]>
+                            </MediaFile>
+                            <MediaFile id="c4_mobile" delivery="progressive" type="image/jpg" width="869" height="414">
+                                <![CDATA[ https://streamr-assets.s3.us-east-2.amazonaws.com/Channel+4+Pause+Ads/Mobile+869x414b.jpg ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
