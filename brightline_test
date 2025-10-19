@@ -1,0 +1,38 @@
+<VAST version="2.0">
+    <Ad id="1529617714">
+        <InLine>
+            <AdSystem><![CDATA[ BrightLine ]]></AdSystem>
+            <AdTitle>
+                <![CDATA[ Channel 4 Pause Ad - BrightLine Test ]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[ BL | Pause Ad | Format: Static Overlay ]]>
+            </Description>
+            <Impression id="impression-id">
+                <![CDATA[ https://events.bhav.tv/track?data=%7B%22type%22%3A%22impression%22%2C%22valid%22%3Atrue%2C%22ad_id%22%3A2544003%2C%22session_id%22%3A%22O1501452-A-1290573701-C1886815567-2025223466205088%22%7D ]]>
+            </Impression>
+            <Creatives>
+                <Creative id="VIDEO_1529617714">
+                    <Linear>
+                        <Duration>00:00:05</Duration>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">
+                                <![CDATA[ https://bhav.net/creativeview ]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id="bhav_click.0">
+                                <![CDATA[ https://bhav.net/click ]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile id="c4_desktop" delivery="progressive" type="image/jpeg" width="1024" height="576">
+                                <![CDATA[ https://cdn-media.brightline.tv/campaigns/brightline/development/channel4/pause/static/media/images/bl_pause_test_1024x576.jpeg ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
